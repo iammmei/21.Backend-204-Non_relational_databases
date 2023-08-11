@@ -26,3 +26,11 @@ collection.insertOne({
 
   console.log(`Inserted ${result.insertedCount} documents into the collection`);
 });
+
+collection.find({}).toArray((err, docs) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+
+  console.log(`Found ${docs.length} documents in the collection`);
