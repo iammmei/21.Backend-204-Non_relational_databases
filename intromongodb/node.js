@@ -33,4 +33,6 @@ collection.find({}).toArray((err, docs) => {
     return;
   }
 
-  console.log(`Found ${docs.length} documents in the collection`);
+  console.log(`Found ${docs.length} documents in the collection`)
+  console.log(docs);
+});
