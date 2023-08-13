@@ -1,0 +1,14 @@
+{
+  "name": "api-mongodb",
+  "version": "1.0.0",
+  "description": "api to perform crud operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^5.7.0"
+  }
+}
