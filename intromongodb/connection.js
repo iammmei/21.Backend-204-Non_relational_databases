@@ -32,6 +32,3 @@ async function main() {
 }
 
 main();
-
-
-
