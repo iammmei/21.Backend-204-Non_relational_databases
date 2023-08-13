@@ -13,4 +13,6 @@ const client = new MongoClient("mongodb://localhost:27017", {
 //     }
 // });
 
-client.connect().then(dbClient=>console.log("Connected to Mango db")).catch((error) => console.log("Error,error"));
+client.connect()
+.then(dbClient=>console.log("Connected to Mango db"))
+.catch((error) => console.log("Error,error"));
